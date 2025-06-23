@@ -4,22 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "git-commit-msg-linter": "^5.0.8"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.3",
     "@typescript-eslint/eslint-plugin": "^8.34.1",
     "@typescript-eslint/parser": "^8.34.1",
     "eslint": "^9.29.0",
     "eslint-config-love": "^121.0.0",
+    "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.7",
+    "jest": "^30.0.2",
     "lint-staged": "^16.1.2",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
   }
 }
