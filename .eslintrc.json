@@ -1,7 +1,7 @@
 {
     "extends": "love",
     "parserOptions": {
-      "project": "./tsconfig.json", 
+      "project": "./tsconfig.json"
     },
     "rules":{
         "@typescript-eslint/stric-boolean-expression": "off"
